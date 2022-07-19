@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: black;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.text-title {
+    color: white;
+    margin-left: 50px;
+
+}
+
+#banner-bttn {
+    border: none;
+    color: #FFFFFF;
+    padding: 5px 20px;
+    background-color: #DD0000;
+}
+
+/* --------------Card styles------------ */
+
+.card-cont {
+    width: 200px;
+    height: 150px;
+    background-color: rgb(22, 20, 20);
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 70px;
+    margin-left: 50px;
+    border-radius: 5px;
+    line-height: 30px;
+
+}
+
+
+
+.card {
+
+    padding: 10px;
+    margin: 3px;
+
+}
+
+.card a {
+    text-decoration: none;
+    color: gray;
+    font-size: 13px;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* --------------Footer-------------- */
+.footers {
+    background-color: black;
+}
+
+h2 {
+    color: #FFFFFF;
+    text-align: center;
+}

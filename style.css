@@ -106,35 +106,59 @@ main {
 
 
 /* --------------Footer-------------- */
+
 .footer {
-    background-color: black;
+    background: #6d0837;
+
 }
+
+.circle {
+
+    width: 45px;
+    height: 45px;
+    border-radius: 80%;
+    display: inline-block;
+    background-color: #FFF;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.circle:hover {
+
+    background-color: #474D5D;
+
+}
+
+
 
 h2 {
     color: #FFFFFF;
     text-align: center;
+    padding-top: 30px;
 }
 
 hr {
-    color: #FFFFFF;
+    color: grey;
 }
 
 .footer-text a {
     text-decoration: none;
-
+    color: #FFF;
 }
 
 .footer-text {
     text-align: center;
-
-
+    padding: 10px;
 }
 
 #centered {
     justify-content: space-evenly;
 }
 
-
+.social-media {
+    text-align: center;
+}
 
 
 /* -------Media query for Banner=====Mobile device------- */

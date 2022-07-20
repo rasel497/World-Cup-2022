@@ -113,7 +113,7 @@ main {
 
 /* ---------------------Footer------------------------ */
 .ft-container {
-    height: 150px;
+
     background-color: crimson;
 }
 
@@ -123,11 +123,11 @@ main {
     color: #FFFFFF;
 }
 
-.hr-line {
-    align-items: center;
+hr {
+    margin-left: 30px;
+    margin-right: 30px;
     border: .3px solid #FFFFFF;
-    margin-top: 5px;
-    margin-bottom: 10px;
+
 }
 
 .f-list a {
@@ -140,6 +140,7 @@ main {
     text-align: center;
     margin-bottom: 10px;
 }
+
 
 .social-icon {
     text-align: center;
@@ -203,4 +204,26 @@ main {
         display: flex;
         justify-content: center;
     }
+}
+
+/* --------media q footer-------- */
+
+@media only screen and (max-width: 576px) {
+    .ft-container a {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .f-list {
+        grid-template-columns: 1fr;
+    }
+
+
+}
+
+
+/* -----------foooter NNNNNNN-------------- */
+
+.ft-container7 {
+    background-color: tomato;
 }

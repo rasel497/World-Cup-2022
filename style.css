@@ -38,16 +38,20 @@ body {
 .banner-button {
     border: none;
     color: white;
-    background-color: tomato;
+    background-color: red;
     padding: 10px 20px;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
 }
 
+.banner-button:hover {
+    background-color: mediumvioletred;
+}
+
 /*-----------------Three button section-----------------------*/
-nav {
-    height: 210px;
+/* nav {
+    height: 230px;
     background-color: black;
     padding: 20px;
     border-radius: 10px;
@@ -67,6 +71,48 @@ ul a {
     color: #FFFF;
 }
 
+.active {
+    background-color: red;
+}
+
+.active {
+    color: #FFFFFF;
+} */
+
+
+nav {
+    padding: 0 10px;
+    background-color: #161616;
+    border-radius: 10px;
+    height: 270px;
+}
+
+nav ul li {
+    width: 200px;
+    margin: 30px 0;
+    padding: 10px 0;
+    list-style: none;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+}
+
+nav ul li a {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+}
+
+.active {
+    background-color: red;
+}
+
+.active a {
+    color: #fff;
+}
+
+/* main */
 main {
     width: 100%;
 }
@@ -112,39 +158,43 @@ main {
 }
 
 /* ---------------------Footer------------------------ */
-.ft-container {
 
-    background-color: crimson;
+footer {
+    background-color: tomato;
+    padding: 2em 5em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
-.ft-h {
-    text-align: center;
+footer h1 {
+    margin-left: 1em;
+    color: #FFFFFF;
+}
+
+.footer-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-box li {
+    list-style: none;
+}
+
+.footer-box li a {
     font-size: 15px;
-    color: #FFFFFF;
-}
-
-hr {
-    margin-left: 30px;
-    margin-right: 30px;
-    border: .3px solid #FFFFFF;
-
-}
-
-.f-list a {
     text-decoration: none;
-    color: #FFFFFF;
-    padding: 10px;
+    color: bisque;
 }
-
-.f-list {
-    text-align: center;
-    margin-bottom: 10px;
-}
-
 
 .social-icon {
     text-align: center;
     font-size: 30px;
+}
+
+h4 {
+    color: #FFFFFF;
 }
 
 .facebook:hover {
@@ -157,8 +207,47 @@ hr {
     .banner7 {
         grid-template-columns: 1fr;
         flex-direction: column-reverse;
-        background-color: red;
+        background-color: slateblue;
     }
+
+    .footer-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social-icon {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+/* ----------------Germany Pages------------------- */
+.blogs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.match-day {
+    display: flex;
+    padding: 30px 30px;
+    max-height: 225px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tm-flag {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.flag {
+    max-width: 80px;
+    max-height: 56px;
 }
 
 /* --------Banner media Query for tablet devices-------- */
@@ -211,19 +300,10 @@ hr {
 @media only screen and (max-width: 576px) {
     .ft-container a {
         grid-template-columns: repeat(1, 1fr);
-
     }
 
     .f-list {
         grid-template-columns: 1fr;
     }
 
-
-}
-
-
-/* -----------foooter NNNNNNN-------------- */
-
-.ft-container7 {
-    background-color: tomato;
 }
